@@ -1,0 +1,18 @@
+{
+  "name": "vpack-node",
+  "version": "0.0.1",
+  "description": "velocypack node module",
+  "main": "index.js",
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "cmake-js": "^3.2.1",
+    "nan": "^2.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "cmake-js compile"
+  },
+  "author": "",
+  "license": "Apache-2.0"
+}
