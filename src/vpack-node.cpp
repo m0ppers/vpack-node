@@ -6,7 +6,7 @@
 
 #include <velocypack/Builder.h>
 #include <velocypack/Buffer.h>
-#include <velocypack/Hexdump.h>
+#include <velocypack/HexDump.h>
 #include <velocypack/velocypack-aliases.h>
 
 #include "v8-vpack.h"
