@@ -5,8 +5,6 @@
 #include <iostream>
 
 #include <velocypack/Builder.h>
-#include <velocypack/Buffer.h>
-#include <velocypack/HexDump.h>
 #include <velocypack/velocypack-aliases.h>
 
 #include "v8-vpack.h"
@@ -36,10 +34,7 @@ void decode(const FunctionCallbackInfo<Value>& args) {
     }
 
     char* buf = node::Buffer::Data(args[0]);
-
     VPackSlice slice(buf);
-    
-    std::string json = slice.toJson();
     args.GetReturnValue().Set(TRI_VPackToV8(isolate, slice));
 }
 
