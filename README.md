@@ -1,3 +1,5 @@
 # vpack-node
 
-Node beidge for velocypack
+Node bridge for velocypack
+
+https://github.com/arangodb/velocypack
